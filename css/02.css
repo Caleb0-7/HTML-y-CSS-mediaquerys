@@ -1,0 +1,35 @@
+/*Mobile first*/
+
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+}
+
+.precio{
+    font-size: 4rem;
+}
+
+@media (min-width:600px ){
+    .oferta{
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .precio{
+       font-size: 2rem;
+    }
+
+}
+
+@media ( min-width:800px ){
+    
+    .oferta{
+        max-width: 60rem;
+        margin: 0 auto
+    }
+
+}
+
+
+/*La logica de mobile first es que vamos desarrollando la aparienciaa del sitio web empezando de un dispositivo movil y de ahi vamos agregando media queris para adaptarlo a diferentes dispositivos OSEA El codigo que este por fuera de las mediaqueris es lo que aplica a un dispositivo movil y lo que este dentro de las @mediaqueris es lo que aplica para las computadoras o televisiones etc el codigo de las media queries en mobile first se escribe de la medida mas pequeña a las mas grande*/

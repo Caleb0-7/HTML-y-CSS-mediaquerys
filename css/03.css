@@ -1,0 +1,43 @@
+/*Dektop fist*/
+
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.precio{
+    font-size: 4rem;
+    margin: 0;
+}
+
+@media ( max-width:768px ){
+
+    .oferta{
+        max-width: 40rem;
+    }
+
+    .precio{
+        font-size: 3rem;
+    }
+
+}
+
+@media ( max-width:375px ) {
+
+    .oferta{
+        max-width: 100%;
+    }
+     
+    .precio{
+        font-size: 2rem;
+    }
+}
+
+/*Logica de Desktop first*/
+
+/*El codigo que esta por defuera de las mediaqueries es el que aplica al ordenador y el codigo que esta dentro de las mediaqueries es el aplica a dispositivos moviles o tablets etc */
+
+/*El codigo se escribe del tamaño mas grande al mas pequeño*/

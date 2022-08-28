@@ -1,0 +1,30 @@
+/*Media queries*/
+
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.precio{
+    font-size: 6rem;
+    margin: 0;
+}
+
+/*Sintaxis de como escribir una  media queries
+
+@media (max-widt: ancho del desipositivo)
+
+*/
+
+@media (max-width:600px){
+    .oferta{
+        max-width: 30rem;
+    }
+
+    .precio{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,12 @@
+/*Creando snippet para media queries*/
+@media (min-width: 500px) {
+    .oferta{
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .oferta{
+        font-size: 4rem;
+    }
+}
